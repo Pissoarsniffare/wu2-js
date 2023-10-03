@@ -33,7 +33,10 @@ function varsAndTypes(element) {
 }
 
 function operators(element) {
-  // kod för att visa vad du lärt dig om operatorer
+  let a = 32
+  let b = 37
+  let sum = a + b 
+  console.log('Summan av', a, 'och', b, 'är', sum)
   console.log('operators === ', 1 === 1)
 }
 
