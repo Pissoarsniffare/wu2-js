@@ -41,8 +41,13 @@ function operators(element) {
 }
 
 function controlStructures(element) {
-  // kod för att visa vad du lärt dig om kontrollstrukturer
-  // if och loopar
+  let age = 18
+  if (age >= 18) {
+    console.log('Du är myndig') 
+  }
+    else {
+      console.log('Du är inte myndig')
+  }
   let controlStructures = 'controlStructures'
   console.log(controlStructures, controlStructures ? 'if' : 'loopar')
 }
