@@ -17,8 +17,18 @@ export function setupPractice (element) {
 // du kan använda kontrollstrukturer och variabler etc. i 
 // andra moment än där funktionen heter så såklart
 function varsAndTypes(element) {
-  // kod för att visa vad du lärt dig om variabler och typer
-  let varsAndTypes = 'varsAndTypes'
+  const age = 18
+  const name = 'Samuel'
+  const betyg = 'F'
+  const engelska = betyg
+  const svenska = betyg
+  const webbutveckling = betyg
+  const webbserverprogrammering = betyg
+  const programmering = betyg
+  const samhällskunskap = betyg
+  const info = `Jag heter ${name} och är ${age} år gammal och har ${betyg} i engelska, ${betyg} i svenska, ${betyg} i webbutveckling, ${betyg} i webbserverprogrammering, ${betyg} i programmering och ${betyg} i samhällskunskap 😀,`
+  console.log(info)
+  const varsAndTypes = 'varsAndTypes'
   console.log(varsAndTypes, typeof(varsAndTypes))
 }
 
